@@ -62,7 +62,7 @@ class simpleGenderPredictor():
         """
         freq = self.name_dict.get(a_name.upper())
         if freq is None:
-            return 'Unknown'
+            return 'Unknown', None
         elif freq[0] >= freq[1]:
             return 'M', freq[0] / (freq[0] + freq[1])
         else:

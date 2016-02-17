@@ -11,7 +11,7 @@ p.predict_name('john')
 ('M', 0.9957609676907682)
 
 p.predict_name('no_name')
-'Unknown'
+('Unknown', None)
 
 p.predict_name('Jane')
 ('F', 0.9969194911455744)
