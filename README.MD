@@ -1,7 +1,7 @@
 simpleGenderPredictor
 ------------
 
-Download historical baby names from SSA.gov website and use the frequency to predict the gender given a name.
+Download historical baby names from SSA.gov website and use the frequency to predict the gender given a name. Works with Python 2 and 3.
 
 ```python
 from simpleGenderPredictor import simpleGenderPredictor

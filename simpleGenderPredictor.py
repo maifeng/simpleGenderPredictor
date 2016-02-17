@@ -5,8 +5,8 @@ Modified from genderPredictor by Stephen Holiday
 Feng Mai maifeng@gmail.com
 2016-02-17
 """
-
-import urllib.request
+from __future__ import absolute_import, division, print_function
+from six.moves import urllib
 import os
 from zipfile import ZipFile
 import csv
@@ -18,7 +18,7 @@ class simpleGenderPredictor():
     def __init__(self):
         self.name_dict = self.extractNamesDict()
 
-    def downloadNames():
+    def downloadNames(self):
         urllib.request.urlretrieve(
             'https://www.ssa.gov/oact/babynames/names.zip', 'names.zip')
 
