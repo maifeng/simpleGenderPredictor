@@ -1,5 +1,7 @@
 """
 Download baby names from U.S. Social Security website and use historical frequency to predict gender
+Modified from genderPredictor by Stephen Holiday
+
 Feng Mai maifeng@gmail.com
 2016-02-17
 """
